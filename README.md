@@ -1,18 +1,13 @@
 # refineGenerativeShapeGMM
 
-SOMETHING
+This is a code to refine the generative model capabilities of Shape-based Gaussian Mixture Model, or ShapeGMM, to preform molecular modeling of unfolded protein structures. The code will have the user read an MD trajectory and necessary libraries into Jupyter Notebook, fit ShapeGMM to the data, fit the GMM object to a Kronecker State-Model, and create a new GMM object with minimized means and calculated Hessian from the minimized energies. gmm3n.py is a library that will store the proper covariances, weights, and means of the trejctory. 
 
 ---
 
-## 📜 Overview
-
-Something 
-
 ✅ **Features**:
 
-* Feature 1
-* Feature 2
-
+* An example of this generative model is run using alanine dipeptide.
+  
 ---
 
 ## 📦 Installation
@@ -74,13 +69,6 @@ Initialize the mixture model.
 
 ---
 
-## 🧬 Applications
-
-* App 1
-* App 2
-
----
-
 ## 🛠️ Testing
 
 To run the unit tests:
@@ -88,11 +76,6 @@ To run the unit tests:
 ```bash
 pytest tests/
 ```
-
----
-
-## 📚 References
-
 
 ---
 
